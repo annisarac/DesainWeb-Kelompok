@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.sosmed {
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+}
+.sosmed ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
+.list{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: rgb(0, 0, 0);
+}
+
+header ul{
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.active{
+    background-color: rgb(0, 0, 0);
+    color: white; 
+}
+
+.cover{
+    height: 85vh;
+    background-image: url(1.png);
+    background-size: cover;
+    color: white;
+}
+
+.cover h1{
+    margin-left: 80px;
+    padding: 70px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cover p{
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    width: 80%;
+    position: absolute;
+    top: 20%;
+}
+
+.font {
+    margin-left: 4%;
+}
+
+.font h1{
+    font-size: 70px;
+    line-height: 90px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    background-color: rgb(0, 0, 0);
+    height: 85vh;
+}
+
+.lagu{
+    float: right;
+    margin-right: 6%;
+    display: flex;
+    align-items: center;
+}
+
+.lagu1{
+    float: right;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.lagu1 p{
+    font-size: 18px;
+    color: white;
+    font-weight: 400px;
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#icon{
+    width: 40px;
+    cursor: pointer;
+}
